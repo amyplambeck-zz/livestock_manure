@@ -40,15 +40,17 @@ The .rmd is annotated, but additional information may be helpful.
 ## 2: Data (Joining)
 
 - 2.1: Summarizing animal population counts by county
-- 2.2: Merging animal 
-- 2.3:
+- 2.2: Bringing animal specific conversion factors into county data
+- 2.3: There are two components to this step. The first is sorting out the animals that do incorporate weight in their VS calculations (most non-cattle) and the rest that don't (most cattle). The second is tagging them with the daily or annual VS rate that they'll need, since weight calculated VS is on a daily level. 
+- 2.4: Revising the ambiguous liquidsolid set by selecting swine out and into the liquid dataset, only after all other joins have been made. 
 
 ## 3: Calculations
 
-- 3.1:
-- 3.2: 
-- 3.3:
-- 3.4:
+- 3.1: Calculating annual VS for both categories of animals (differentiated by vsday and vsyear measurement methods) using ICLEI estimation formulas. 
+- 3.2: Simple step storing waste manangement emissions factors as values.
+- 3.3: Finally estimating methane emissions measured in CO2 equivalents for all single storage methods (not liquidsolid). All values are summarized by county and include only county name, total VS, and emissions. Not the complete estimate as it excludes the ambiguous data. 
+- 3.3 (1/2): Step that allows for additional, albeit not necessary, information to be stored instead of the three simple variables from the previous step. Can keep the waste management systems and/or animals distinct. Also excludes the ambiguous data. 
+- 3.4: Final step includes the ambiguous data to create an estimated emissions total using the average emissions factor between pasture, solid, and liquid. Also includes the low estimate and the high estimate to create a range of potential estimated values. 
 
 # Credits
 Thanks to Mauricio Leon and Kristen Peterson of Met Council and Sara Isebrand of MPCA for their contributions. 
