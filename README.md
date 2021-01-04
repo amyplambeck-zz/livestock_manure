@@ -51,6 +51,7 @@ The .rmd is annotated, but additional information may be helpful.
 - 3.3: Finally estimating methane emissions measured in CO2 equivalents for all single storage methods (not liquidsolid). All values are summarized by county and include only county name, total VS, and emissions. Not the complete estimate as it excludes the ambiguous data. 
 - 3.3 (1/2): Step that allows for additional, albeit not necessary, information to be stored instead of the three simple variables from the previous step. Can keep the waste management systems and/or animals distinct. Also excludes the ambiguous data. 
 - 3.4: Final step includes the ambiguous data to create an estimated emissions total using the average emissions factor between pasture, solid, and liquid. Also includes the low estimate and the high estimate to create a range of potential estimated values. 
+- 3.5: Viewing final table
 
 # Credits
 Thanks to Mauricio Leon and Kristen Peterson of Met Council and Sara Isebrand of MPCA for their contributions. 
