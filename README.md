@@ -1,5 +1,5 @@
 # Livestock Emissions Inventory: Manure Management in the Twin Cities (MN)
-This project calculates approximate methane emissions (measured in metric tons of CO2 equivalent) from manure management in the Twin Cities 7 county region. Its purpose is to contribute to the Metropolitan Council Research division's growing Greenhouse Gas Inventory. Cattle and other mammalian livestock are a significant source of methane, which has the potential to exacerbate global climate change. This inventory is being put together in order to provide public data on these greenhouse gases -- where they are coming from, and how much. 
+This project calculates approximate methane emissions (measured in metric tons of CO2 equivalent) from manure management in the Twin Cities 7 county region at the county scale. Its purpose is to contribute to the Metropolitan Council Research division's growing Greenhouse Gas Inventory. Cattle and other mammalian livestock are a significant source of methane, which has the potential to exacerbate global climate change. This inventory is being put together in order to provide public data on these greenhouse gases -- where they are coming from, and how much. 
 
 ## Code
 All code is done in R.
@@ -23,6 +23,8 @@ The methodology is taken from the 2013 ICLEI protocol, specifically from Appendi
 
 Emissions factors are the multiplier associated with each head of livestock (each animal). Emissions factors for each waste management system have been sourced from the Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990-2018 from the EPA.
 *(Specifically, Annexes to the Inventory of U.S. GHG Emissions and Sinks, Annex 3.11,  Table A-185 and 186, https://www.epa.gov/sites/production/files/2020-04/documents/us-ghg-inventory-2020-annexes.pdf)*
+
+Farm level data on manure management were provided by the Minnesota Pollution Control Agency (MPCA). 
 
 # Walkthrough 
 The .rmd is annotated, but additional information may be helpful. 
