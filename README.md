@@ -31,6 +31,9 @@ Farm level data on manure management were provided by the Minnesota Pollution Co
 # Walkthrough 
 The .rmd is annotated, but additional information may be helpful. 
 
+## Data Preparation
+Data from the EPA were only available in PDF format, so data had to be prepared on Excel sheets for compatibility and for the ability to update in the future. These sheets are included in this repository. 
+
 ## 1: Data (Sorting)
 
 - 1.1: Importing data from Excel sheets
