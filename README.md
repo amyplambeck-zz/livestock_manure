@@ -58,5 +58,5 @@ The .rmd is annotated, but additional information may be helpful.
 - 3.5: Viewing final table
 
 # Credits
-Thanks to Mauricio Leon and Kristen Peterson of Met Council and Sara Isebrand of MPCA for their contributions. 
+Thanks to Mauricio Leon and Kristen Peterson of Met Council and Sara Isebrand and Angela Hawkins of of MPCA for their contributions. 
 
