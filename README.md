@@ -6,7 +6,9 @@ All code is done in R.
 
 ## Method
 
-CH4 Emissions = Volatile Solids (VS) * Bo * Methane Conversion Factor (MCF) * 0.662 x (1/1000) x Global warming Potential (GWP)
+CH4 Emissions (in CO2 equivalent) = Volatile Solids (VS) * Bo * Methane Conversion Factor (MCF) * 0.662 x (1/1000) x Global warming Potential (GWP)
+
+GWP used for this analysis is 25. 
 
 Volatile solids necessary for CH4 emissions estimates derived from
 
